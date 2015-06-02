@@ -56,4 +56,5 @@ for x in top:
 print(results)
 print(type(results))
 csvfile.write(header)
+csvfile.write("\n")
 csvwriter.writerows(results)
