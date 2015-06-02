@@ -9,7 +9,8 @@ def get_request(url):
     r =  http.request('GET', url)
     return json.loads(r.data.decode('utf8'))
 
-print("name, price")
+header = "name, price, genres, metacritic, release, likes, achievements, linux, mac, windows"
+print(header)
 
 top = get_request("http://steamspy.com/api.php?request=top100forever")
 
@@ -24,13 +25,18 @@ for x in top:
 
         data.append(bb[x]['data']["name"])
         data.append(bb[x]['data']["price_overview"]["initial"])
-        data.append(bb[x]['data']["price_overview"]["final"])
         genres = []
-        for x in bb[x]['data']["genres"]:
-            genres.append(x["description"])
+        for y in bb[x]['data']["genres"]:
+            genres.append(y["description"])
         data.append(genres)
 
-
+        data.append(bb[x]['data']["metacritic"]["score"])
+        data.append(bb[x]['data']["release_date"]["date"])
+        data.append(bb[x]['data']["recommendations"]["total"])
+        data.append(bb[x]['data']["achievements"]["total"])
+        data.append(bb[x]['data']["platforms"]["linux"])
+        data.append(bb[x]['data']["platforms"]["mac"])
+        data.append(bb[x]['data']["platforms"]["windows"])
         print(data)
         results.append(data)
 
@@ -38,7 +44,7 @@ for x in top:
 
     except (KeyError,TypeError):
         pass
-        #print(bb)
+        print("error")
 print(results)
 print(type(results))
 csvwriter.writerows(results)
