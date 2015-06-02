@@ -9,7 +9,7 @@ def get_request(url):
     r =  http.request('GET', url)
     return json.loads(r.data.decode('utf8'))
 
-header = "name, price, genres, metacritic, release, likes, achievements, linux, mac, windows"
+header = "name, price, genres, metacritic, release, likes, achievements, linux, mac, windows, owners, players_forever, players_2weeks, average_forever, average_2weeks,median_forever,median_2weeks"
 print(header)
 
 top = get_request("http://steamspy.com/api.php?request=top100forever")
@@ -19,8 +19,8 @@ csvwriter = csv.writer(csvfile, dialect='excel')
 
 for x in top:
     data = []
+
     bb = get_request("http://store.steampowered.com/api/appdetails/?appids="+x)
-    #print(json.dumps(bb, sort_keys=True, indent=4, separators=(',', ': ')))
     try:
 
         data.append(bb[x]['data']["name"])
@@ -28,6 +28,7 @@ for x in top:
         genres = []
         for y in bb[x]['data']["genres"]:
             genres.append(y["description"])
+        print(genres)
         data.append(genres)
 
         data.append(bb[x]['data']["metacritic"]["score"])
@@ -37,6 +38,13 @@ for x in top:
         data.append(bb[x]['data']["platforms"]["linux"])
         data.append(bb[x]['data']["platforms"]["mac"])
         data.append(bb[x]['data']["platforms"]["windows"])
+        data.append(top[x]["owners"])
+        data.append(top[x]["players_forever"])
+        data.append(top[x]["players_2weeks"])
+        data.append(top[x]["average_forever"])
+        data.append(top[x]["average_2weeks"])
+        data.append(top[x]["median_forever"])
+        data.append(top[x]["median_2weeks"])
         print(data)
         results.append(data)
 
@@ -47,4 +55,5 @@ for x in top:
         print("error")
 print(results)
 print(type(results))
+csvfile.write(header)
 csvwriter.writerows(results)
