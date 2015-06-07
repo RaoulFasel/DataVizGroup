@@ -1,0 +1,181 @@
+<!doctype html>
+<meta charset="utf-8">
+ 
+<script src="http://www.d3plus.org/js/d3.js"></script>
+<script src="http://www.d3plus.org/js/d3plus.js"></script>
+<script src="js/classie.js"></script>
+<script src="js/nav.js"></script>
+
+<style>
+	
+  button {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      cursor: pointer;
+      border: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      -webkit-border-radius: 0;
+      -moz-border-radius: 0;
+      border-radius: 0;
+      -webkit-box-shadow: none;
+      -moz-box-shadow: none;
+      box-shadow: none;
+      
+  }
+  
+  button.nav-toggler {
+  	position: fixed;
+  	top: 30px;
+  	left: 10px;
+  	z-index: 200;
+      
+  }
+
+/* general style for all menus */
+nav.menu {
+    position: fixed;
+    z-index: 20;
+    background-color: #67b5d1;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+}
+nav.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+nav.menu a {
+    font-weight: 300;
+    color: #fff;
+}
+button.close-menu {
+    background-color: #3184a1;
+    color: #fff;
+}
+button.close-menu:focus {
+    outline: none
+}
+nav.slide-menu-left {
+    top: 0;
+    width: 300px;
+    height: 100%;
+}
+nav.slide-menu-left li {
+    display: block;
+    text-align: center;
+    border-bottom: solid 1px #3184a1;
+    border-top: solid 1px #b5dbe9;
+}
+nav.slide-menu-left li:first-child {
+    border-top: none
+}
+nav.slide-menu-left li:last-child {
+    border-bottom: none
+}
+nav.slide-menu-left a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+}
+nav.slide-menu-left button.close-menu {
+    margin: 10px 0;
+    padding: 10px 30px;
+    background-color: #3184a1;
+    color: #fff;
+}
+nav.slide-menu-left {
+    left: -300px
+}
+body.sml-open nav.slide-menu-left {
+    left: 0
+}
+</style>
+
+<nav class="menu slide-menu-left">
+       <ul>
+           <li><button class="close-menu">&larr; Close</button></li>
+           <li><a onclick="change('waste')" href="#">Money Wasted</a></li>
+       		 <li><a onclick="change('likes')" href="#">Likes</a></li>
+       		 <li><a onclick="change('players_forever')" href="#">Players</a></li>
+       		 <li><a onclick="change('owners')" href="#">Owners</a></li>
+       </ul>
+   </nav><!-- /slide menu left -->
+   <button class="nav-toggler toggle-slide-left">Menu</button>
+<div id="viz"></div>
+ 
+<script>
+
+
+var external_data;
+var visualization;
+	d3.json("dataset.json", function(error, dataset) {
+		external_data = dataset;
+  	visualization = d3plus.viz()
+    .container("#viz")
+    .data(dataset)
+    .type("tree_map")
+    .id(["genre","name"])
+    .tooltip({"html": htmltest})
+    .size("waste")
+    .draw()
+	});
+
+	function change(i){
+	console.log(i);
+	visualization.size(i)
+	.draw()
+	
+	}
+	function htmltest(d){
+		for (var i = 0; i < external_data.length; i++){
+		  // look for the entry with a matching `code` value
+		  if (external_data[i].name == d){
+		     console.log(external_data[i].name);
+		     return	"<span style='font-weight: bold'>Name: " + external_data[i].name + "</span> <br> <span> Genre:</span><span style='position: absolute; left: 100px;'>" + external_data[i].genre + "</span> <br> <span> Price:</span><span style='position: absolute; left: 100px;'>" +external_data[i].price/100 + "</span> <br> <span> Rating:</span><span style='position: absolute; left: 100px;'>" + external_data[i].metacritic + "</span> <br> <span> Likes:</span><span style='position: absolute; left: 100px;'>" + external_data[i].likes + "</span> <br> <span> Achievements:</span><span style='position: absolute; left: 100px;'>" + external_data[i].achievements + "</span> <br> <span> Owners:</span><span style='position: absolute; left: 100px;'>" + external_data[i].owners + "</span> <br> <span> Players:</span><span style='position: absolute; left: 100px;'>" + external_data[i].players_forever + "</span> <br> <span>Release Date:</span><span style='position: absolute; left: 100px;'>" + external_data[i].release + "</span>"
+		  }
+		}
+	
+		
+	}
+	(function( window ){
+	
+	    var body = document.body,
+	        mask = document.createElement("div"),
+	        toggleSlideLeft = document.querySelector( ".toggle-slide-left" ),
+	        slideMenuLeft = document.querySelector( ".slide-menu-left" ),
+	        activeNav
+	    ;
+	
+	    mask.className = "mask";
+	
+	    /* slide menu left */
+	    toggleSlideLeft.addEventListener( "click", function(){
+	        classie.add( body, "sml-open" );
+	        document.body.appendChild(mask);
+	        activeNav = "sml-open";
+	    } );
+	
+	    /* hide active menu if mask is clicked */
+	    mask.addEventListener( "click", function(){
+	        classie.remove( body, activeNav );
+	        activeNav = "";
+	        document.body.removeChild(mask);
+	    } );
+	
+	    /* hide active menu if close menu button is clicked */
+	    [].slice.call(document.querySelectorAll(".close-menu")).forEach(function(el,i){
+	        el.addEventListener( "click", function(){
+	            classie.remove( body, activeNav );
+	            activeNav = "";
+	            document.body.removeChild(mask);
+	        } );
+	    });
+	
+	})( window );
+</script>
