@@ -69,6 +69,7 @@ for x in top:
         print(x)
 
     try:
+        data.append(top[x]["appid"])
         data.append(top[x]["owners"])
         data.append(top[x]["players_forever"])
         data.append(top[x]["players_2weeks"])
@@ -111,7 +112,8 @@ for x in results:
         item["average_2weeks"] = x[18]
         item["median_forever"] = x[19]
         item["median_2weeks"] = x[20]
-        item["waste"] = (x[1]*(x[14]-x[15]))
+        item["waste"] = (x[1]*(x[15]-x[16]))
+        item["id"] = x[14]
         json_data.append(item)
 for x in json_data:
     for y in x:
