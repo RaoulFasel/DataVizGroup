@@ -116,7 +116,7 @@ for x in results:
 for x in json_data:
     for y in x:
         if isinstance( x[y], str):
-            if len(x[y])> 50:
+            if len(x[y])> 80:
                 x[y] = ""
 
 with open('data.json', 'w') as outfile:
