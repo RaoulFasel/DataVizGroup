@@ -25,6 +25,12 @@
       
   }
   
+  description {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+      margin: 10px;
+  }
+  
   button.nav-toggler {
   	position: fixed;
   	top: 30px;
@@ -104,6 +110,7 @@ body.sml-open nav.slide-menu-left {
        		 <li><a onclick="change('likes')" href="#">Likes</a></li>
        		 <li><a onclick="change('players_forever')" href="#">Players</a></li>
        		 <li><a onclick="change('owners')" href="#">Owners</a></li>
+       		 <li><div id="description"><h1>Description</h1>This visualization displays a tree diagram of the top 100 games on steam. It can be set to display money wasted, likes, player and owners using the buttons</div></li>
        </ul>
    </nav><!-- /slide menu left -->
    <button class="nav-toggler toggle-slide-left">Menu</button>

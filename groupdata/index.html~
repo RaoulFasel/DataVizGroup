@@ -25,6 +25,11 @@
       
   }
   
+  description {
+      font-family: "Open Sans", sans-serif;
+      font-size: 14px;
+  }
+  
   button.nav-toggler {
   	position: fixed;
   	top: 30px;
@@ -104,6 +109,7 @@ body.sml-open nav.slide-menu-left {
        		 <li><a onclick="change('likes')" href="#">Likes</a></li>
        		 <li><a onclick="change('players_forever')" href="#">Players</a></li>
        		 <li><a onclick="change('owners')" href="#">Owners</a></li>
+       		 <li><div id="description"><h1>Description</h1>This visualization displays a tree diagram of the top 100 games on steam. It can be set to display money wasted, likes, player and owners using the buttons</div></li>
        </ul>
    </nav><!-- /slide menu left -->
    <button class="nav-toggler toggle-slide-left">Menu</button>
@@ -137,7 +143,7 @@ var visualization;
 		  // look for the entry with a matching `code` value
 		  if (external_data[i].name == d){
 		     console.log(external_data[i].name);
-		     return	"<img src= " + external_data[i].image +" ><br><span style='font-weight: bold'>Name: " + external_data[i].name + "</span> <br> <span> Genre:</span><span style='position: absolute; left: 100px;'>" + external_data[i].genre + "</span> <br> <span> Price:</span><span style='position: absolute; left: 100px;'>" +external_data[i].price/100 + "</span> <br> <span> Rating:</span><span style='position: absolute; left: 100px;'>" + external_data[i].metacritic + "</span> <br> <span> Likes:</span><span style='position: absolute; left: 100px;'>" + external_data[i].likes + "</span> <br> <span> Achievements:</span><span style='position: absolute; left: 100px;'>" + external_data[i].achievements + "</span> <br> <span> Owners:</span><span style='position: absolute; left: 100px;'>" + external_data[i].owners + "</span> <br> <span> Players:</span><span style='position: absolute; left: 100px;'>" + external_data[i].players_forever + "</span> <br> <span>Release Date:</span><span style='position: absolute; left: 100px;'>" + external_data[i].release + "</span><br> <span>Steam store:</span><span style='position: absolute; left: 100px;'><a href= http://store.steampowered.com/app/" + external_data[i].release + ">Link</a></span>"
+		     return	"<img src= " + external_data[i].image +" ><br><span style='font-weight: bold'>Name: " + external_data[i].name + "</span> <br> <span> Genre:</span><span style='position: absolute; left: 100px;'>" + external_data[i].genre + "</span> <br> <span> Price:</span><span style='position: absolute; left: 100px;'>" +external_data[i].price/100 + "</span> <br> <span> Rating:</span><span style='position: absolute; left: 100px;'>" + external_data[i].metacritic + "</span> <br> <span> Likes:</span><span style='position: absolute; left: 100px;'>" + external_data[i].likes + "</span> <br> <span> Achievements:</span><span style='position: absolute; left: 100px;'>" + external_data[i].achievements + "</span> <br> <span> Owners:</span><span style='position: absolute; left: 100px;'>" + external_data[i].owners + "</span> <br> <span> Players:</span><span style='position: absolute; left: 100px;'>" + external_data[i].players_forever + "</span> <br> <span>Release Date:</span><span style='position: absolute; left: 100px;'>" + external_data[i].release + "</span><br> <span>Steam store:</span><span style='position: absolute; left: 100px;'><a href= http://store.steampowered.com/app/" + external_data[i].id + ">Link</a></span>"
 		  }
 		}
 	
