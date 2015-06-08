@@ -1,6 +1,6 @@
 # DataVizGroup
 data visualisation for DataViz course
-
+LIVE D3 ->>>http://raoulfasel.github.io/DataVizGroup/groupdata/
 NIICCEEE
 
 # Data used
