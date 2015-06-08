@@ -20,6 +20,7 @@ for x in top:
     data = []
 
     bb = get_request("http://store.steampowered.com/api/appdetails/?appids="+x)
+
     try:
 
         data.append(bb[x]['data']["name"])
@@ -78,7 +79,7 @@ for x in top:
     except (KeyError, TypeError):
         print("error steampsy")
         print(x)
-    print(data)
+    #print(data)
     results.append(data)
 #print(results)
 csvfile.write(header)
@@ -86,25 +87,37 @@ csvfile.write("\n")
 csvwriter.writerows(results)
 json_data = []
 for x in results:
-    item = {}
-    item["name"] = x[0]
-    item["price"] = x[1]
-    item["genre"] = x[2][0]
-    item["genre2"] = x[0][1]
-    item["genre3"] = x[0][2]
-    item["genre4"] = x[0][3]
-    item["metacritic"] = x[0]
-    item["release"] = x[0]
-    item["likes"] = x[0]
-    item["achievements"] = x[0]
-    item["linux"] = x[0]
-    item["mac"] = x[0]
-    item["windows"] = x[0]
-    item["owners"] = x[0]
-    item["players_forever"] = x[0]
-    item["players_2weeks"] = x[0]
-    item["average_forever"] = x[0]
-    item["average_2weeks"] = x[0]
-    item["median_forever"] = x[0]
-    item["median_2weeks"] = x[0]
-    item["waste"] = x[0]
+    #print(x)
+    if len(x) > 18:
+        item = {}
+        item["name"] = x[0]
+        item["price"] = x[1]
+        item["genre"] = x[2]
+        item["genre2"] = x[3]
+        item["genre3"] = x[4]
+        item["genre4"] = x[5]
+        item["metacritic"] = x[6]
+        item["release"] = x[7]
+        item["likes"] = x[8]
+        item["achievements"] = x[9]
+        item["linux"] = x[10]
+        item["mac"] = x[11]
+        item["windows"] = x[12]
+        item["image"] = x[13]
+        item["owners"] = x[14]
+        item["players_forever"] = x[15]
+        item["players_2weeks"] = x[16]
+        item["average_forever"] = x[17]
+        item["average_2weeks"] = x[18]
+        item["median_forever"] = x[19]
+        item["median_2weeks"] = x[20]
+        item["waste"] = (x[1]*(x[14]-x[15]))
+        json_data.append(item)
+for x in json_data:
+    for y in x:
+        if isinstance( x[y], str):
+            if len(x[y])> 50:
+                x[y] = ""
+
+with open('data.json', 'w') as outfile:
+    json.dump(json_data, outfile)
