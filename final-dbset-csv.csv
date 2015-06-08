@@ -1,81 +1,95 @@
-name; price;genres;;;; metacritic; release; likes; achievements; linux;mac;windows;owners; players_forever; players_2weeks; average_forever; average_2weeks;median_forever;median_2weeks
-Euro Truck Simulator 2;1999;Indie;Simulation;;;79;16-jan-13;34035;36;True;True;True;1804507;1621016;351137;2647;494;812;191
-Warhammer 40000: Dawn of War II;1499;Strategy;;;;85;18-feb-09;2558;73;False;False;True;2245915;1802849;25239;1836;259;769;115
-Call of Duty: Modern Warfare 2;2499;Action;;;;86;11-nov-09;14361;50;False;True;True;4521860;4100532;67243;1464;148;645;47
-Bastion;1499;Action;Indie;RPG;;86;16-aug-11;14825;24;True;True;True;1952625;1528166;16028;364;251;183;54
-Call of Duty: Modern Warfare 2;2499;Action;;;;86;11-nov-09;14361;50;False;True;True;4521860;3977100;135407;9521;212;3274;56
-Metro 2033;999;Action;;;;81;15-mrt-10;12454;48;False;False;True;4522044;2818310;35187;442;88;150;26
-Call of Duty: Black Ops II;5999;Action;;;;74;12-nov-12;15167;35;False;False;True;2372295;2072926;233784;5352;322;1426;75
-Day of Defeat: Source;999;Action;;;;80;12-jul-10;4508;54;True;True;True;5900064;2695246;47899;1777;218;96;66
-Dungeon Defenders;1199;Action;Indie;RPG;Strategy;81;18-okt-11;8158;104;True;True;True;1814455;1523007;30766;2658;322;740;78
-Half-Life 2;999;Action;;;;96;16-nov-04;23319;33;True;True;True;8766273;4904500;77560;707;160;288;52
-Dishonored;1499;Action;Adventure;;;91;11-okt-12;16278;80;False;False;True;1941388;1656756;39425;1001;323;626;114
-Call of Duty: Black Ops II;5999;Action;;;;74;12-nov-12;15167;35;False;False;True;2372295;1992603;62085;561;87;236;16
-Borderlands 2;2999;Action;RPG;;;89;20-sep-12;60640;69;True;True;True;4936924;4492383;268051;3670;420;1561;86
-Saints Row IV;1999;Action;Adventure;;;86;22-aug-13;29580;73;False;False;True;2109587;1790690;102615;1228;219;875;63
-Super Meat Boy;1399;Indie;;;;87;30-nov-10;13006;48;True;True;True;2027606;1714972;47899;336;59;108;14
-Just Cause 2;1499;Action;Adventure;;;84;23-mrt-10;20677;50;False;False;True;3383519;2667612;84929;1004;159;218;40
-Tomb Raider;1999;Action;Adventure;;;86;4-mrt-13;35856;50;False;True;True;3054858;2498675;80876;944;208;645;53
-Magicka;999;Action;RPG;;;74;25-jan-11;13936;88;False;False;True;3301722;2768016;88429;636;153;286;76
-Torchlight II;1899;Action;Adventure;Indie;RPG;88;20-sep-12;19114;119;True;True;True;2846681;2562418;73875;1512;261;698;78
-Empire: Total War;1999;Strategy;;;;90;3-mrt-09;6960;30;True;True;True;3117863;2769121;129328;6205;615;1431;171
-Call of Duty: Black Ops;3999;Action;;;;81;8-nov-10;7072;68;False;False;True;3190817;2707036;61900;4803;262;1378;41
-The Elder Scrolls V: Skyrim;1499;RPG;;;;94;10-nov-11;126063;75;False;False;True;8875336;8451981;1037384;6661;550;2853;139
-Fallout: New Vegas;999;Action;RPG;;;84;21-okt-10;24925;75;False;False;True;3370992;2952059;183675;3764;447;1364;115
-Mafia II;2999;Action;;;;77;26-aug-10;10608;67;False;False;True;1959626;1518770;34451;1773;296;921;115
-Counter-Strike: Source;1999;Action;;;;88;1-nov-04;38832;147;True;True;True;13638902;10382315;513994;8121;331;770;51
-Mount & Blade: Warband;1999;Action;RPG;;;78;31-mrt-10;25981;80;True;True;True;1776873;1603146;205045;5772;514;1901;170
-The Witcher 2: Assassins of Kings Enhanced Edition;1999;RPG;;;;88;16-apr-12;17162;52;True;True;True;3047673;2185305;316318;883;351;286;91
-DARK SOULS: Prepare To Die Edition;1999;Action;RPG;;;85;23-aug-12;30513;41;False;False;True;1897910;1667257;100035;2533;446;420;125
-The Binding of Isaac;499;Action;Adventure;Indie;RPG;84;28-sep-11;33763;99;False;True;True;2628924;2324949;124169;1924;129;400;26
-Portal;999;Action;;;;90;10-okt-07;17132;15;True;True;True;8254305;5871693;53242;328;129;176;49
-Borderlands;1999;Action;RPG;;;81;26-okt-09;10202;80;False;False;True;2299526;2033685;43478;1950;356;927;109
-PAYDAY 2;1999;Action;RPG;;;79;13-aug-13;112794;324;False;False;True;4312209;4022235;391483;2962;393;1076;109
-Arma 3;4499;Action;Simulation;Strategy;;74;12-sep-13;37390;57;False;False;True;1877829;1687707;361454;7068;973;1916;281
-Counter-Strike;999;Action;;;;88;1-nov-00;43866;0;True;True;True;11206733;7965621;470885;11094;552;545;79
-Arma 2: Operation Arrowhead;1499;Action;Simulation;Strategy;;73;29-jun-10;10324;0;False;False;True;3500872;3108099;191965;2658;693;181;149
-Half-Life 2: Episode Two;799;Action;;;;90;10-okt-07;3632;22;True;True;True;4824914;1961837;21002;458;177;304;56
-Grand Theft Auto IV;1999;Action;Adventure;;;90;2-dec-08;23827;0;False;False;True;3564799;2988536;102246;1354;191;451;35
-XCOM: Enemy Unknown;1999;Strategy;;;;89;11-okt-12;21715;85;True;True;True;2644768;2180699;98009;2811;568;1367;152
-Call of Duty: Black Ops;3999;Action;;;;81;8-nov-10;7072;68;False;False;True;3190817;3049515;62453;1404;149;579;43
-PAYDAY The Heist;1499;Action;;;;76;20-okt-11;25448;56;False;False;True;3836903;2835443;62822;480;105;161;30
-BioShock Infinite;2999;Action;;;;94;25-mrt-13;40255;80;True;True;True;3385730;2628187;74612;897;179;665;70
-Counter-Strike: Global Offensive;1399;Action;;;;83;21-aug-12;551141;167;True;True;True;13199888;12716660;5932304;10592;1155;2973;692
-Sid Meiers Civilization V;2999;Strategy;;;;90;23-sep-10;56809;287;True;True;True;7363566;6978163;748884;9247;855;2312;378
-Dead Island;1999;Action;RPG;;;80;6-sep-11;16161;48;True;True;True;2810388;2417799;70743;1127;229;476;67
-Hitman: Absolution;1999;Action;;;;79;19-nov-12;11257;47;False;True;True;2194700;1609410;45873;906;203;502;52
-Left 4 Dead 2;1999;Action;;;;89;16-nov-09;93085;70;True;True;True;11979566;10230696;484334;2358;222;579;71
-Napoleon: Total War;1399;Strategy;;;;81;23-feb-10;3548;71;False;True;True;1851853;1542167;66506;3655;437;789;136
-Grand Theft Auto V;5999;Action;Adventure;;;96;13-apr-15;45535;60;False;False;True;2424800;2364926;1531113;3661;920;2697;449
-Portal 2;1999;Action;Adventure;;;95;18-apr-11;48070;51;True;True;True;6437824;5448707;169305;989;181;610;64
-Half-Life 2: Episode One;699;Action;;;;87;1-jun-06;2637;13;True;True;True;5421626;2187515;20633;296;100;200;40
-Killing Floor;1799;Action;;;;72;14-mei-09;39018;285;True;True;True;3125785;2742961;101325;2356;185;572;51
-Chivalry: Medieval Warfare;2299;Action;Indie;;;79;16-okt-12;26817;49;True;True;True;26486732;2991299;328109;906;125;200;44
-Total War: ROME II - Emperor Edition;5499;Strategy;;;;76;2-sep-13;22197;150;False;True;True;1913753;1814271;218309;6815;679;2400;222
-BioShock;1999;Action;RPG;;;96;21-aug-07;10161;0;False;False;True;2641820;1724552;31503;445;129;169;47
-Sniper Elite V2;2799;Action;;;;66;3-mei-12;17653;47;False;False;True;3334699;2363084;55268;518;116;159;46
-Saints Row: The Third;1499;Action;;;;84;14-nov-11;21333;83;False;False;True;3240927;2589315;70928;1588;232;968;72
-Left 4 Dead;1999;Action;;;;89;17-nov-08;6235;73;False;True;True;3572352;2699852;27450;2562;255;581;50
-Goat Simulator;999;Casual;Indie;Simulation;;62;1-apr-14;28254;86;True;True;True;1720131;1622490;154014;375;98;142;30
-Half-Life;999;Action;;;;96;8-nov-98;7566;0;True;True;True;5192079;1836746;31687;427;117;86;37
-Day of Defeat;499;Action;;;;79;1-mei-03;1405;0;True;True;True;7140283;1597988;13264;978;265;27;37
-Age of Empires II HD;1999;Strategy;;;;68;9-apr-13;14556;259;False;False;True;2203543;1956863;160830;1938;420;449;141
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
-;;;;;;;;;;;;;;;;;;;
+name;price;genre1;genre2;genre3;genre4;metacritic;release;likes;achievements;linux;mac;windows;owners;players_forever;players_2weeks;average_forever;average_2weeks;median_forever;median_2weeks
+Age of Empires II HD;19.99;Strategy;;;;68;9-4-2013;14620;259;False;False;True;2154170;1934800;150769;1801;401;453;169
+Alien Swarm;0;Action;;;;77;19-7-2010;10199;66;False;False;True;4256211;4256211;27131;337;145;100;41
+Arma 2;9.99;Action;Simulation;Strategy;;77;29-6-2009;1687;0;False;False;True;2562098;2104366;52517;276;58;26;8
+Arma 2: Operation Arrowhead;14.99;Action;Simulation;Strategy;;73;29-6-2010;10399;0;False;False;True;3565931;3175444;193209;2526;658;181;154
+Arma 3;44.99;Action;Simulation;Strategy;;74;12-9-2013;37669;57;False;False;True;1858640;1734808;367038;7018;911;1788;267
+Bastion;14.99;Action;Indie;RPG;;86;16-8-2011;14859;24;True;True;True;1941389;1541987;18216;358;83;183;35
+BioShock;19.99;Action;RPG;;;96;21-8-2007;10217;0;False;False;True;2648335;1772598;37014;420;110;171;40
+BioShock Infinite;29.99;Action;;;;94;25-3-2013;40362;80;True;True;True;3326212;2596011;72477;892;207;668;51
+Borderlands;19.99;Action;RPG;;;81;26-10-2009;10266;80;False;False;True;2271801;2017742;37208;1972;345;900;99
+Borderlands 2;29.99;Action;RPG;;;89;20-9-2012;60837;69;True;True;True;4950948;4500192;271112;3711;378;1571;105
+Call of Duty: Black Ops;39.99;Action;;;;81;8-11-2010;7117;68;False;False;True;3224085;2733796;65889;4967;298;1411;41
+Call of Duty: Black Ops II;59.99;Action;;;;74;12-11-2012;15285;35;False;False;True;2375091;1987898;61819;546;87;226;22
+Call of Duty: Modern Warfare 2;24.99;Action;;;;86;11-11-2009;14447;50;False;True;True;4565500;4024438;149412;9549;211;3197;46
+Call of Duty: Modern Warfare 3;39.99;Action;;;;90;7-11-2011;13228;76;False;True;True;2961693;2717712;76741;1562;241;577;45
+Castle Crashers;11.99;Action;Adventure;Casual;Indie;96;26-9-2012;20456;12;False;True;True;2177619;1877438;58912;503;150;218;35
+Chivalry: Medieval Warfare;22.99;Action;Indie;;;79;16-10-2012;27262;49;True;True;True;8642067;2490008;271887;1086;218;308;78
+Counter-Strike;9.99;Action;;;;88;1-11-2000;44131;0;True;True;True;1.13E+07;8053527;463158;11110;522;535;72
+Counter-Strike: Condition Zero;9.99;Action;;;;65;1-3-2004;4206;0;True;True;True;8765705;3635501;63757;2147;211;103;32
+Counter-Strike: Global Offensive;13.99;Action;;;;83;21-8-2012;561137;167;True;True;True;1.33E+07;1.29E+07;6086170;10774;1219;3019;742
+Counter-Strike: Source;19.99;Action;;;;88;1-11-2004;39043;147;True;True;True;1.37E+07;1.04E+07;514900;8192;299;775;49
+Counter-Strike Nexon: Zombies;0;Action;Casual;Free to Play;;60;7-10-2014;13315;65;False;False;True;3393651;1937125;121894;519;380;34;54
+DARK SOULS: Prepare To Die Edition;19.99;Action;RPG;;;85;23-8-2012;30660;41;False;False;True;1908251;1670083;104065;2414;429;438;86
+Day of Defeat;4.99;Action;;;;79;1-5-2003;1415;0;True;True;True;7139031;1608651;13759;890;198;26;21
+Day of Defeat: Source;9.99;Action;;;;80;12-7-2010;4540;54;True;True;True;5815445;2650660;46316;1847;277;98;68
+DayZ;27.99;Action;Indie;Massively Multiplayer;Early Access;90;16-12-2013;121574;0;False;False;True;3189784;3159359;338551;3476;310;1123;59
+DC Universe Online;0;Action;Adventure;Free to Play;Massively Multiplayer;72;2-11-2011;6651;122;False;False;True;2022199;2022199;38564;1434;480;353;165
+Dead Island;19.99;Action;RPG;;;80;6-9-2011;16246;48;True;True;True;2798328;2405128;61044;1113;206;472;61
+Dead Island: Epidemic;0;Action;Free to Play;Early Access;;85;20-11-2014;18285;54;False;False;True;4634101;2083243;53680;240;129;42;33
+Dishonored;14.99;Action;Adventure;;;91;11-10-2012;16337;80;False;False;True;1972783;1686942;43603;1023;237;615;85
+Don't Starve;14.99;Adventure;Indie;Simulation;;79;23-4-2013;31595;0;True;True;True;2611902;2255716;135847;1139;207;359;41
+Dota 2;0;Action;Free to Play;Strategy;;90;9-7-2013;380807;0;True;True;True;5.07E+07;5.07E+07;8866088;11416;1426;362;800
+Dungeon Defenders;11.99;Action;Indie;RPG;Strategy;81;18-10-2011;8187;104;True;True;True;1798953;1507299;25386;2687;388;720;75
+Empire: Total War;19.99;Strategy;;;;90;3-3-2009;7006;30;True;True;True;3096184;2761508;116662;5921;495;1411;186
+Euro Truck Simulator 2;19.99;Indie;Simulation;;;79;16-1-2013;34328;36;True;True;True;1777636;1580939;330606;2630;480;831;187
+Fallout: New Vegas;9.99;Action;RPG;;;84;21-10-2010;25506;75;False;False;True;3404116;2980685;249795;3522;406;1294;105
+Far Cry 3;19.99;Action;Adventure;;;88;28-11-2012;26664;0;False;False;True;2484001;2188083;75384;1675;236;978;50
+FTL: Faster Than Light;9.99;Indie;Simulation;Strategy;;84;14-9-2012;24639;0;True;True;True;2209207;1923560;103290;1428;226;591;60
+Garry's Mod;9.99;Indie;Simulation;;;96;29-11-2006;147479;29;True;True;True;8800006;8045387;1299556;5140;467;1006;121
+Goat Simulator;9.99;Casual;Indie;Simulation;;62;1-4-2014;28406;86;True;True;True;1726282;1629774;139723;351;99;139;26
+Grand Theft Auto IV;19.99;Action;Adventure;;;90;2-12-2008;23948;0;False;False;True;3519615;2967507;97670;1397;199;455;30
+Grand Theft Auto V;59.99;Action;Adventure;;;96;13-4-2015;46865;60;False;False;True;2471598;2415593;1441217;3767;856;2739;391
+Half-Life;9.99;Action;;;;96;8-11-1998;7608;0;True;True;True;5192217;1850889;32751;412;113;82;27
+Half-Life 2;9.99;Action;;;;96;16-11-2004;23443;33;True;True;True;8764930;4952305;79841;699;146;289;43
+Half-Life 2: Deathmatch;4.99;Action;;;;90;1-11-2004;2779;0;True;True;True;1.13E+07;3360707;21898;643;221;40;36
+Half-Life 2: Episode One;6.99;Action;;;;87;1-6-2006;2657;13;True;True;True;5425927;2209594;20929;296;88;195;32
+Half-Life 2: Episode Two;7.99;Action;;;;90;10-10-2007;3662;22;True;True;True;4841263;1959411;20348;471;214;303;53
+Half-Life 2: Lost Coast;0;Action;;;;90;27-10-2005;2666;0;True;True;True;1.34E+07;2621398;13178;53;32;25;17
+Heroes & Generals;0;Action;Free to Play;Indie;Massively Multiplayer;70;11-7-2014;25851;0;False;False;True;6090627;3931225;355023;540;283;54;51
+Hitman: Absolution;19.99;Action;;;;79;19-11-2012;11314;47;False;True;True;2193122;1625705;47285;947;181;517;68
+Just Cause 2;14.99;Action;Adventure;;;84;23-3-2010;20758;50;False;False;True;3378342;2674690;87206;1015;213;215;38
+Killing Floor;17.99;Action;;;;72;14-5-2009;39128;285;True;True;True;3111687;2739028;100771;2533;194;584;62
+Left 4 Dead;19.99;Action;;;;89;17-11-2008;6268;73;False;True;True;3532986;2657443;22673;2488;205;590;38
+Left 4 Dead 2;19.99;Action;;;;89;16-11-2009;93383;70;True;True;True;1.20E+07;1.03E+07;482343;2360;231;577;70
+Loadout;0;Action;Free to Play;Indie;;72;31-1-2014;37006;29;False;False;True;3940333;2385943;69958;456;110;139;30
+Mafia II;29.99;Action;;;;77;26-8-2010;10651;67;False;False;True;1949915;1505749;39339;1758;277;920;83
+Magicka;9.99;Action;RPG;;;74;25-1-2011;14008;88;False;False;True;3279509;2758989;93988;608;142;276;66
+Metro 2033;9.99;Action;;;;81;15-3-2010;12525;48;False;False;True;4559880;2852202;33138;430;100;153;21
+Mount & Blade: Warband;19.99;Action;RPG;;;78;31-3-2010;26193;80;True;True;True;1752443;1587528;219758;5858;606;1937;221
+Napoleon: Total War;13.99;Strategy;;;;81;23-2-2010;3573;71;False;True;True;1821433;1524352;65307;3813;455;767;121
+Neverwinter;0;Action;Adventure;Free to Play;Massively Multiplayer;74;5-12-2013;13920;0;False;False;True;2835730;1721049;99221;1563;569;303;131
+No More Room in Hell;0;Action;Free to Play;Indie;;90;31-10-2013;31665;92;True;True;True;4018237;2434003;142629;437;130;107;49
+Nosgoth;0;Action;Free to Play;Early Access;;66;26-3-2014;11039;75;False;False;True;2958786;1632681;101934;385;157;57;30
+Path of Exile;0;Action;Adventure;Free to Play;Indie;86;23-10-2013;22239;66;False;False;True;3294625;2088282;139335;2589;732;300;152
+PAYDAY 2;19.99;Action;RPG;;;79;13-8-2013;113281;324;False;False;True;4328494;4045367;395525;2815;388;1052;106
+PAYDAY The Heist;14.99;Action;;;;76;20-10-2011;25537;56;False;False;True;3857778;2849295;60075;460;95;160;28
+PlanetSide 2;0;Action;Free to Play;Massively Multiplayer;;84;20-11-2012;24240;0;False;False;True;4080831;2582059;162008;1828;292;269;75
+Portal;9.99;Action;;;;90;10-10-2007;17216;15;True;True;True;8263014;5883660;56005;319;108;175;31
+Portal 2;19.99;Action;Adventure;;;95;18-4-2011;48295;51;True;True;True;6416970;5415850;179450;998;204;613;67
+Robocraft;0;Action;Free to Play;Indie;Massively Multiplayer;90;8-7-2014;36478;0;True;True;True;6785558;4611815;478080;1018;398;152;83
+Rust;19.99;Adventure;Indie;RPG;Early Access;60;11-12-2013;88492;0;True;True;True;2539619;2497760;392231;3766;564;1221;101
+Saints Row: The Third;14.99;Action;;;;84;14-11-2011;21442;83;False;False;True;3289005;2638645;82555;1575;228;972;68
+Saints Row IV;19.99;Action;Adventure;;;86;22-8-2013;29668;73;False;False;True;2100103;1788682;96120;1199;259;865;74
+Sid Meier's Civilization V;29.99;Strategy;;;;90;23-9-2010;57078;287;True;True;True;7406074;7015200;732720;9268;868;2314;378
+Sniper Elite V2;27.99;Action;;;;66;3-5-2012;17689;47;False;False;True;3346754;2360363;52323;469;104;166;38
+Starbound;13.99;Action;Adventure;Casual;Indie;64;4-12-2013;42623;0;True;True;True;1847400;1809611;120731;2752;454;1356;74
+Super Meat Boy;13.99;Indie;;;;87;30-11-2010;13100;48;True;True;True;1975689;1664850;43797;311;41;106;13
+Team Fortress 2;0;Action;Free to Play;;;92;10-10-2007;258070;513;True;True;True;2.79E+07;2.79E+07;2106304;4456;591;291;197
+Terraria;9.99;Action;Adventure;Indie;RPG;83;16-5-2011;75602;0;False;False;True;5829592;5450539;409091;3633;423;1122;62
+The Binding of Isaac;4.99;Action;Adventure;Indie;RPG;84;28-9-2011;33859;99;False;True;True;2590779;2284785;110267;1849;144;391;23
+The Elder Scrolls V: Skyrim;14.99;RPG;;;;94;10-11-2011;126750;75;False;False;True;8893219;8469206;983872;6469;528;2839;126
+The Walking Dead;22.99;Adventure;;;;82;24-4-2012;21787;48;False;True;True;1706128;1482881;19379;766;221;677;76
+The Witcher: Enhanced Edition Director's Cut;7.99;Action;RPG;;;86;16-9-2008;8798;0;False;True;True;2059601;1535592;156582;860;451;179;132
+The Witcher 2: Assassins of Kings Enhanced Edition;19.99;RPG;;;;88;16-4-2012;17305;52;True;True;True;3060526;2212113;258322;882;335;285;103
+Tomb Raider;19.99;Action;Adventure;;;86;4-3-2013;35970;50;False;True;True;3045411;2521015;91081;903;204;646;53
+Tom Clancy's Ghost Recon Phantoms - EU;0;Free to Play;;;;70;10-4-2014;13880;57;False;False;True;2658606;1535592;86818;1346;449;284;111
+Torchlight II;18.99;Action;Adventure;Indie;RPG;88;20-9-2012;19160;119;True;True;True;2877782;2601244;72284;1479;268;669;88
+Total War: ROME II - Emperor Edition;54.99;Strategy;;;;76;2-9-2013;22251;150;False;True;True;1902824;1805929;219177;6705;714;2291;256
+Total War: SHOGUN 2;29.99;Strategy;;;;90;14-3-2011;9700;106;False;True;True;2340209;2135566;96895;4310;511;1405;156
+Unturned;0;Action;Adventure;Casual;Free to Play;75;7-7-2014;128061;37;False;True;True;1.47E+07;1.08E+07;957129;645;233;162;56
+Warface;0;Action;Free to Play;;;62;1-7-2014;12275;30;False;False;True;2985529;1793139;124801;560;271;85;66
+Warframe;0;Action;Free to Play;;;68;25-3-2013;57693;132;False;False;True;7256081;4237801;471297;3577;932;294;183
+Warhammer 40000: Dawn of War II;14.99;Strategy;;;;85;18-2-2009;2597;73;False;False;True;2258042;1800310;36820;1897;268;779;68
+War Thunder;0;Free to Play;Massively Multiplayer;Simulation;;82;15-8-2013;36143;0;True;True;True;5619330;3265556;469747;2371;470;349;148
+XCOM: Enemy Unknown;19.99;Strategy;;;;89;11-10-2012;21953;85;True;True;True;2648722;2198742;134490;2722;543;1356;195
